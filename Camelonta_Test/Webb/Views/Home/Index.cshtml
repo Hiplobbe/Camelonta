@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="~/Scripts/angular.js" type="text/javascript"></script>
+    <script src="~/Scripts/Index.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width" />
+    <title>Hotellarn</title>
+</head>
+<body ng-app="basicApp" ng-controller="homeController">
+    <div> 
+        <h3>Make reservation</h3>
+        <label for="selectType">Living type:</label>
+        <select id="selectType" ng-model="houseType">
+            <option>Apartment</option>
+            <option>Bungalow</option>
+            <option>Villa</option>
+        </select>
+        <br />
+
+        <label for="inputPersonalNumber">Personal number:</label>
+        <input id="inputPersonalNumber" type="text" ng-model="personalNumber"/>
+        <br />
+
+        <label for="inputPersonalNumber">End date:</label>
+        <input id="inputPersonalNumber" type="text" ng-model="endDate" />
+
+        <div>
+            <input type="button" value="Send" ng-click="saveReservation()"/>
+            <span ng-show="saved">Reservation is now saved</span>
+            <span ng-show="error">Error while saving</span>
+        </div>
+    </div>
+    <div>
+        <h3>Find reservation</h3>
+
+        <label for="inputGuid">Id:</label>
+        <input id="inputGuid" type="text" ng-model="searchGuid" />
+
+        <input type="button" value="Search" ng-click="findReservation()"/>
+
+        <div ng-show="foundReserv != undefined">
+            <table>
+                <tr>
+                    <td>Id: <span ng-bind="foundReserv.ReservationGuid"></span></td>
+                    <td>Type: <span ng-bind="foundReserv.Type"></span></td>
+                    <td>Cost: <span ng-bind="foundReserv.Cost"></span></td>
+                    <td>StartDate: <span ng-bind="foundReserv.DateMade"></span></td>
+                    <td>EndDate: <span ng-bind="foundReserv.EndDate"></span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

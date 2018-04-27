@@ -1,0 +1,9 @@
+F:\Programmering\Projects\C#\Camelonta_Test\Camelonta_Test\DBHandler\bin\Debug\netstandard2.0\DBHandler.deps.json
+F:\Programmering\Projects\C#\Camelonta_Test\Camelonta_Test\DBHandler\bin\Debug\netstandard2.0\DBHandler.dll
+F:\Programmering\Projects\C#\Camelonta_Test\Camelonta_Test\DBHandler\obj\Debug\netstandard2.0\DBHandler.csprojResolveAssemblyReference.cache
+F:\Programmering\Projects\C#\Camelonta_Test\Camelonta_Test\DBHandler\obj\Debug\netstandard2.0\DBHandler.csproj.CoreCompileInputs.cache
+F:\Programmering\Projects\C#\Camelonta_Test\Camelonta_Test\DBHandler\obj\Debug\netstandard2.0\DBHandler.AssemblyInfoInputs.cache
+F:\Programmering\Projects\C#\Camelonta_Test\Camelonta_Test\DBHandler\obj\Debug\netstandard2.0\DBHandler.AssemblyInfo.cs
+F:\Programmering\Projects\C#\Camelonta_Test\Camelonta_Test\DBHandler\bin\Debug\netstandard2.0\DBHandler.pdb
+F:\Programmering\Projects\C#\Camelonta_Test\Camelonta_Test\DBHandler\obj\Debug\netstandard2.0\DBHandler.dll
+F:\Programmering\Projects\C#\Camelonta_Test\Camelonta_Test\DBHandler\obj\Debug\netstandard2.0\DBHandler.pdb
